@@ -165,7 +165,7 @@ img{
     color: var(--first-color);
 }
  
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     .nav_menu{
         position: fixed;
         bottom: -100%;
@@ -318,7 +318,7 @@ img{
 
 .button_icon{
     font-size: 1.25rem;
-    margin-left: var(--mb-0-5);
+    margin-left:var(--mb-0-5);
     transition: .3s;
 }
 
@@ -328,18 +328,97 @@ img{
 }
 
 
-
-
-
-
-
 /* =============== ABOUT ========== */
 
+.about_img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-items: center;
+}
 
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_button{
+    display: flex;
+    justify-content: center;
+
+}
 /* =============== SKILL ========== */
+.skills_container{
+    row-gap: 0;
+}
+
+.skills_header{
+    display: flex;
+    align-items: center;
+
+    margin-top: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills_icon,
+.skills_arrow{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+.skills_icon{
+    margin-right: var(--mb-0-75);
+}
+
+.skills_title{
+    font-size: var(--h3-font-size);
+}
+
+.skills_subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.skills_arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+
+.skills_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.skills_bar,
+.skills_percentage{
+    height: 15px;
+    border-radius: .25rem;
+}
+
+.skills_bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills_percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills_full_stack_web{
+    width: 70%;
+}
+
+.skills_machine_learning{
+    width: 50%;
+}
 
 
-
+ 
+/* ================== QUALIFICATION =========== */
 
 /* =============== PROJECT ========== */
 

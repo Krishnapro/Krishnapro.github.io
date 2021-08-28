@@ -416,6 +416,34 @@ img{
     width: 40%;
 }
 
+/* ================== TECHSTACK =========== */
+.tech_container{
+    margin-left: 100px;
+}
+.tech_content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tech_font{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+.tech_icon{
+    margin-right: var(--mb-0-25);
+    margin-bottom: 10px;
+    height: 30px;
+}
+.tech_title{
+    display: flex;
+    flex-basis: 200px;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+    
+}
+
 
  
 /* ================== QUALIFICATION =========== */

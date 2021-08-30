@@ -48,4 +48,18 @@ if(navToggle){
         // mousewheel: true,
         // keyboard: true,
       });
+
+     /* ============ CHANGE BACKGROUND HEADER =========*/
+     function scrollHeader(){
+         const nav = document.getElementById('header')
+         // when the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
+         if(this.scrollY >= 80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
+
+     }
+     window.addEventListener('scroll', scrollHeader)
+
+
+    //  ========= DARK LIGHT THEME ===========
+
+    
     

@@ -17,7 +17,13 @@
 
 
     <!-- =========== SWIPER CSS ========= -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
 
     <!-- ========== CSS ========= -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -53,7 +59,7 @@
             </li>
             <li class="nav_item">
               <a href="#project" class="nav_link">
-                <i class="uil uil-briefcase-alt nav_icon"></i> Project
+                <i class="uil uil-briefcase-alt nav_icon"></i> Projects
               </a>
             </li>
             <li class="nav_item">
@@ -196,7 +202,7 @@
                   <span class="skills_subtitle"></span>
                 </div>
 
-                <i class="uil uil-angle-down skills_arrow"></i>
+                <!-- <i class="uil uil-angle-down skills_arrow"></i> -->
               </div>
 
               <div class="skills_list grid">
@@ -225,7 +231,7 @@
                   <span class="skills_subtitle"></span>
                 </div>
 
-                <i class="uil uil-angle-down skills_arrow"></i>
+                <!-- <i class="uil uil-angle-down skills_arrow"></i> -->
               </div>
 
               <div class="skills_list grid">
@@ -359,9 +365,64 @@
       <!-- =============== PROJECT ================ -->
       <section class="project section" id="project">
         <h2 class="section_title">Projects</h2>
-        <span class="section_subtitle"></span>
+        <span class="section_subtitle">Personal project</span>
+
+        <div class="project_container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- =============== PROJECT 1 ================ -->
+            <div class="project_content grid swiper-slide">
+              <img src="assets/img/work1.jpg" alt="" class="project_img">
+
+              <div class="project_data">
+                <h2 class="project_title">My Portfolio</h2>
+                <p class="project_description"> This is the personal website about me. I make this website using 
+                  HTML, CSS and JavaScript and swiper API. </p>
+                  <a href="https://krishnapro.github.io/" class="button button--flex button--small project_button">
+                    Live
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                  <a href="https://github.com/Krishnapro/Krishnapro.github.io" class="button button--flex button--small project_button">
+                    Source Code
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+              </div>
+            </div>
+          
+            <!-- =============== PROJECT 2 ================ -->
+            <div class="project_content grid swiper-slide">
+              <img src="assets/img/work2.jpg" alt="" class="project_img">
+
+              <div class="project_data">
+                <h2 class="project_title">Next project</h2>
+                <p class="project_description"> come soon</p>
+                  <a href="#" class="button button--flex button--small project_button">
+                    Live
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+                  <a href="#" class="button button--flex button--small project_button">
+                    Source Code
+                    <i class="uil uil-arrow-right button_icon"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          
+            <!-- ===== Add Arrow ====== -->
+            <div class="swiper-button-next">
+              <i class="uil uil-angle-right-b swiper-project-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-project-icon"></i>
+            </div>
+
+            <!-- ======== Adding paginaton ====== -->
+            <div class="swiper-pagination"></div>
+        </div>
       </section>
       <!-- =================== CONTACT ============ -->
+      
+
+
     </main>
 
     <!-- ============= FOOTER =========== -->
@@ -369,7 +430,9 @@
     <!-- ============= SCROLL TOP ========== -->
 
     <!-- ========= SWIPER JS ========== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- =============== MAIN JS ========== -->
     <script src="assets/js/main.js"></script>
   </body>

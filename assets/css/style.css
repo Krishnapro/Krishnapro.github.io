@@ -965,7 +965,7 @@ img{
     }
     .home_content{
         grid-template-columns: 1fr max-content 1fr;
-        padding-top: 2rem;
+        padding-top: .1rem;
     }
     .home_data{
         grid-column: initial;
@@ -974,7 +974,7 @@ img{
         width: 500px;
     }
     .home_scroll{
-        margin-top: .5rem;
+        margin-top: -4rem;
         display: block;
     }
     .about_description,

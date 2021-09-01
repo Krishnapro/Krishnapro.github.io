@@ -860,7 +860,7 @@ img{
     }
      
     .home_img{
-        row-gap: 5rem;
+        row-gap: 3rem;
         justify-content: center;
     }
     .home_container{
@@ -961,7 +961,7 @@ img{
         justify-content: center;
     }
     .home_container{
-        row-gap: 2rem;
+        row-gap: 1rem;
     }
     .home_content{
         grid-template-columns: 1fr max-content 1fr;

@@ -966,6 +966,7 @@ img{
     .home_content{
         grid-template-columns: 1fr max-content 1fr;
         padding-top: .1rem;
+        margin-top: -2rem;
     }
     .home_data{
         grid-column: initial;
@@ -977,9 +978,12 @@ img{
         margin-top: -4rem;
         display: block;
     }
-    .about_description,
+    .about_description{
+        align-items: center;
+    }
     .about_container{
         align-items: center;
+        padding-top: 5rem;
     }
      
 /*      

@@ -934,14 +934,14 @@ img{
 }
 
 /* For Large devices */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     .home_data,
     .home_content,
     .home_container{
         margin-left: 0;
     }
     .section{
-        padding: 5rem 0 1rem;
+        padding: 3rem 0 1rem;
     }
     .section_subtitle{
         margin-bottom: 4rem;
@@ -960,7 +960,7 @@ img{
         justify-content: center;
     }
     .home_container{
-        row-gap: 10rem;
+        row-gap: 5rem;
     }
     .home_content{
         grid-template-columns: 1fr max-content 1fr;

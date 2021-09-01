@@ -201,7 +201,7 @@ img{
     color: var(--first-color);
 }
  
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 767px){
     .nav_menu{
         position: fixed;
         bottom: -100%;
@@ -462,7 +462,7 @@ img{
     overflow: initial;
     /* margin-left: 100px; */
     text-align: center;
-    justify-content: center;
+    justify-self: center ;
 }
 .tech_content{
     display: flex;
@@ -470,7 +470,7 @@ img{
     padding: 2rem;
     /* justify-self: center; */
     text-align: center;
-    justify-content: ;
+    justify-self: center;
     
 }
 .tech_font{
@@ -482,11 +482,15 @@ img{
     margin-bottom: 10px;
     height: 30px;
 }
+.tech_icon,
+.tech_font,
+.tech_title{
+    margin-left: 2rem;
+}
 .tech_title{
     display: flex;
-    flex-basis: 200px;
+    flex-basis: 250px;
     /* align-items: center; */
-    justify-self: center;
     /* margin-left: 15px; */
     /* margin-right: 10px; */
     
@@ -793,7 +797,7 @@ img{
 /* For medium devices */
 @media screen and (min-width: 568px){
     .home_content{
-        grid-template-columns: max-content 1fr 1fr;
+        grid-template-columns: 1fr max-content 1fr;
     }
     .home_data{
         grid-column: initial;
@@ -815,7 +819,8 @@ img{
     }
     
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width:   768px) {
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -824,7 +829,7 @@ img{
         margin: 0;
     }
     .section{
-        padding: 6rem 0 2rem;
+        padding: 5rem 0 2rem;
     }
     .section_subtitle{
         margin-bottom: 4rem;
@@ -854,6 +859,7 @@ img{
     }
     .nav_menu{
         margin-left: auto;
+        
     }
     .change-theme{
         margin: 0;
@@ -868,7 +874,7 @@ img{
     }
     .home_content{
         padding-top: 4rem;
-        column-gap: 4rem;
+        column-gap: 1rem;
     }
     .home_blob{
         width: 400px;
@@ -877,7 +883,7 @@ img{
         display: block;
     }
     .home_scroll-button{
-        margin-left: 4.5rem;
+        margin-left: 3rem;
     }
 
     .about_container{
@@ -894,8 +900,9 @@ img{
     .about_button{
         justify-content: initial;
     }
-    .tech_content{
-        text-align: center;
+    .tech_container{
+        margin: auto;
+        align-items: center;
     }
     .qualification_tab{
         justify-content: center;
@@ -977,6 +984,9 @@ img{
     .home_scroll{
         margin-top: -4rem;
         display: block;
+    }
+    .home_scroll-button{
+        margin-left: 5rem;
     }
     .about_description{
         align-items: center;

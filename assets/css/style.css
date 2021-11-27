@@ -450,11 +450,11 @@ img{
 }
 
 .skills_full_stack_web{
-    width: 70%;
+    width: 90%;
 }
 
 .skills_machine_learning{
-    width: 40%;
+    width: 70%;
 }
 
 /* ================== TECHSTACK =========== */
@@ -674,6 +674,11 @@ img{
     padding: .25rem .5rem .5rem 0;
 }
 
+/* ========== Pyment section ======= */
+/* .buyMeCoffee{
+    align-items: center;
+    text-align: center;
+} */
 
 /* =============== FOOTER ========== */
 .footer{

@@ -675,11 +675,17 @@ img{
 }
 
 /* ========== Pyment section ======= */
-/* .buyMeCoffee{
-    align-items: center;
+.coffee_container{
     text-align: center;
-} */
-
+    justify-self: center;
+}
+.coffee{
+    justify-content: center;
+}
+.coffee_font{
+    font-size: 20px;
+    top: -10px;
+}
 /* =============== FOOTER ========== */
 .footer{
     padding-top: 2rem;

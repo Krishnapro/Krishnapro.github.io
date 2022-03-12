@@ -676,15 +676,17 @@ img{
 
 /* ========== Pyment section ======= */
 .coffee_container{
-    text-align: center;
-    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
 }
 .coffee{
-    justify-content: center;
+    justify-self: center;
+
 }
 .coffee_font{
-    font-size: 20px;
-    top: -10px;
+    font-size: 17px;
 }
 /* =============== FOOTER ========== */
 .footer{

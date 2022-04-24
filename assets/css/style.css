@@ -951,6 +951,10 @@ img{
 
 /* For Large devices */
 @media screen and (min-width: 1024px) {
+   
+    .about_img{
+        width: 300px;
+    }
     .home_data{
         margin-left: 0;
         row-gap: 2rem;
@@ -1002,7 +1006,7 @@ img{
     }
     .about_container{
         align-items: center;
-        padding-top: 5rem;
+        /* padding-top: 5rem; */
     }
      
 /*      

@@ -268,13 +268,6 @@ img{
     margin-bottom: var(--mb-0-75);
 }
 
-.home_description{
-
-}
-
-.home_scroll{
-    /* display: none; */
-}
 
 .home_scroll-button{
     color: var(--first-color);

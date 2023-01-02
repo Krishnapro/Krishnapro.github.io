@@ -152,6 +152,11 @@ img{
 .section_title,
 .section_subtitle{
     text-align: center;
+    font-size: 20px;
+}
+.about_description > a {
+    color: rgb(106, 12, 193);
+    
 }
 /* ============ Layout ========== */
 .container{
